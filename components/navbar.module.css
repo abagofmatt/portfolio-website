@@ -1,0 +1,31 @@
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.navbarouter {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: rgba(24,24,31,.56);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 64px;
+    z-index: 10;
+}
+
+.navlink {
+    margin: 8px;
+}
+
+.navhome {
+    margin: 8px 8px 8x 0px;
+    line-height: 0px;
+}
+
+.navicon {
+    margin: 0px 0px 0px 16px;
+}

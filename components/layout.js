@@ -12,19 +12,11 @@ export default function Layout({ children, home }) {
     return (
         <div> 
             <div id='home'/>
-            <Navbar/>
-            <div className={styles.container}>
-                <header className={styles.header}>
-                    {home ? (
-                        <>
-                        <Image
-                            priority
-                            src="/images/MandL2.jpg"
-                            className={utilStyles.borderCircle}
-                           height={144}
-                           width={144}
-                           alt=""
-                        />
+                <Navbar/>
+                    <div className={styles.container}>
+                        <header className={styles.header}>
+                            {home ? (
+                                <>
                         <h1 className={utilStyles.heading2X1}>{name}</h1>
                     </>
                     ) : (
@@ -35,9 +27,9 @@ export default function Layout({ children, home }) {
                 <main>{children}</main>
                 {!home && (
                     <div className={styles.backToHome}>
-                        <Link href="/">
+                        <center><Link href="/">
                             <a>Back to home</a>
-                        </Link>
+                        </Link></center>
                     </div>
                 )}
             </div>

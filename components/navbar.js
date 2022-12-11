@@ -24,6 +24,12 @@ export const Navbar = () => {
                 <Link href='/posts/Projects'>
                     <a className={styles.navlink}>Projects</a>
                 </Link>
+                <Link href='/posts/WebBlog'>
+                    <a className={styles.navlink}>Web Blog</a>
+                </Link>
+                <Link href='/posts/Reviews'>
+                    <a className={styles.navlink}>Reviews</a>
+                </Link>
             </section>
         </nav>
       </div>

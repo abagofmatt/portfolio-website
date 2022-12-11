@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: #a04800;
+    color: #f8d407;
     text-decoration: none;
 }
 
@@ -26,4 +26,18 @@ a:hover {
 img {
     max-width: 100%;
     display: block;
+}
+
+h1 {
+    color: rgb(36, 1, 36);
+    text-shadow: 2px 2px 2px yellow;
+}
+
+h3 {
+    color:rgb(233, 106, 3);
+    text-shadow: 2px 2px 2px rgb(12, 71, 22);
+}
+
+p {
+    color: black;
 }
